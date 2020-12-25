@@ -1,12 +1,17 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote name="TeamorchidosRom"
+            fetch="https://github.com/TeamorchidosRom" />
     <remote name="teamorchidos"
             fetch="https://github.com/teamorchidos" />
    
-    <!-- Rebrended LineageOS Setting & Adding Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
+    <!-- Rebrended LineageOS to TeamorchidosRom" -->
     <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
-    <project path="packages/apps/Settings" name="landroid_packages_apps_Settings-1" remote="teamorchidos" revision="lineage-17.1" />
-    <project path="vendor/prebuilts" name="orchid_vendor_prebuilts" remote="teamorchidos" revision="main" />
-    <project path="vendor/oplauncher" name="android_vendor_oplauncher" remote="teamorchidos" revision="android_10" />
+    <project path="packages/apps/Settings" name="TeamorchidosRom_android_packages_apps_Settings" remote="TeamorchidosRom" revision="Orchidos" />
+    <project path="vendor/prebuilts" name="TeamorchidosRom_vendor_prebuilts" remote="TeamorchidosRom" revision="Orchidos" />
+    <project path="vendor/oplauncher" name="TeamorchidosRom_android_vendor_oplauncher" remote="TeamorchidosRom" revision="Orchidos" />
     <project path="vendor/aeonax/ANXCamera" name="android_vendor_aeonax_ANXCamera" remote="teamorchidos" revision="master" />	
+    <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+    <project path="vendor/lineage" name="TeamorchidosFull_vendor_lineage" remote="TeamorchidosRom" />
 </manifest>
