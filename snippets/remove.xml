@@ -14,5 +14,4 @@
     <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
     <project path="vendor/lineage" name="TeamorchidosFull_vendor_lineage" remote="TeamorchidosRom" />
     <project path="packages/apps/LiquidLounge" name="android_packages_apps_LiquidLounge" remote="TeamorchidosRom" revision="ten" />
-    <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="TeamorchidosRom" revision="lineage-17.1" />
 </manifest>
