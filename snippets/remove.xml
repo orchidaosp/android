@@ -13,6 +13,5 @@
     <project path="vendor/aeonax/ANXCamera" name="android_vendor_aeonax_ANXCamera" remote="teamorchidos" revision="master" />	
     <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
     <project path="vendor/lineage" name="TeamorchidosFull_vendor_lineage" remote="TeamorchidosRom" revision="ORCHIDOSTEST1" />
-    <project path="packages/apps/Extra" name="android_packages_apps_Extra" remote="TeamorchidosRom" revision="RomOrchid" />
     <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="TeamorchidosRom" revision="Orchidtest" />
 </manifest>
