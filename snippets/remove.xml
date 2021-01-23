@@ -7,7 +7,7 @@
    
     <!-- Rebrended LineageOS to TeamorchidosRom" -->
     <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="TeamorchidosRom" revision="ORCHIDOSTEST1" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="TeamorchidosRom" revision="Himari-test" />
     <project path="vendor/prebuilts" name="TeamorchidosRom_vendor_prebuilts" remote="TeamorchidosRom" revision="Orchidos" />
     <project path="vendor/oplauncher" name="TeamorchidosRom_android_vendor_oplauncher" remote="TeamorchidosRom" revision="Orchidos" />
     <project path="vendor/aeonax/ANXCamera" name="android_vendor_aeonax_ANXCamera" remote="teamorchidos" revision="master" />	
