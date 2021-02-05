@@ -1,17 +1,1 @@
-LightningFastRom
-===========
-
-Getting started
----------------
-
-To get started with Android/LightningFastRom, you'll need to get
-familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
-
-To initialize your local repository using the LightningFastRom trees, use a command like this:
-```
-repo init --depth 1 -u git://github.com/TeamorchidosRom/android.git -b lineage-17.1
-```
-Then to sync up:
-```
-repo sync -c -d --force-sync -j$(nproc --all)
-```
+Orchid test rom
